@@ -1,0 +1,96 @@
+.flex-bets{
+    display: flex;
+}
+
+.bets-block {
+    width: 50%;
+    background-color: #1B1C1D;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.bets-header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    background-color: #0E0E0E;
+    border-radius: .9rem;
+    margin: .5rem;
+    font-size: .8rem;
+    transition: .5s all ease-in-out;
+
+    >button{
+        padding: .2rem .9rem;
+        border-radius: 1rem;
+    }
+}
+
+.bets-header button.active {
+    background-color: #2C2D30;
+    /* Adicione outros estilos necessários */
+}
+
+.bets-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bets-values {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: .5rem;
+    padding-bottom: .5rem;
+}
+
+.bets-values div button {
+    background-color: #0E0E0E;
+    margin: .2rem .5rem;
+}
+
+.first-bet-button{
+    display: flex;
+    align-items: center;
+    background-color: #0E0E0E;
+    border-radius: 1rem;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    >svg{
+     margin: .8rem;
+     color: grey;
+    }
+}
+
+.bets-add button{
+    padding: 0rem 1.5rem;
+    border-radius: 1rem;
+    color: grey;
+    font-size: .9rem;
+
+}
+
+.bet-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.bets-bet {
+    margin-top: 10px; /* Adicionando um espaço entre bets-values e bets-bet */
+    background-color: #28A909;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    padding: 1rem 3.5rem;
+    margin-left: .5rem;
+    margin-top: -.5rem;
+    font-weight: bolder;
+}
+
+.bets-bet:hover{
+    background-color: #33d40b;
+}
+
+/* Adicione estilos adicionais conforme necessário */
